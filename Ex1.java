@@ -3,17 +3,9 @@ public class Ex1 {
 
   public static void main(String args[]) {
     // TODO code application logic here
-    Employee emp1 = new Employee();
-    Employee emp2 = new Employee();
+    Employee emp1 = new Employee("Chan Tai Man", 12000);
+    Employee emp2 = new Employee("Tam Ping Shing", 13500);
     int oldSalary;
-
-    //**** 1
-    emp1.setName("Chan Tai Man");
-    emp1.setSalary(12000);
-
-    //**** 2
-    emp2.setName("Tam Ping Shing");
-    emp2.setSalary(13500);
 
     //**** 3
     System.out.println("Before-");
