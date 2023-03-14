@@ -2,10 +2,8 @@
 public class Ex1 {
 
   public static void main(String args[]) {
-    // TODO code application logic here
     Employee emp1 = new Employee("Chan Tai Man", 12000);
     Employee emp2 = new Employee("Tam Ping Shing", 13500);
-    int oldSalary;
 
     //**** 3
     System.out.println("Before-");
@@ -15,11 +13,8 @@ public class Ex1 {
             + " salary=" + emp2.getSalary());
 
     //**** 4
-    oldSalary = emp1.getSalary();
-    emp1.setSalary((int) (oldSalary * 1.1));
-
-    oldSalary = emp2.getSalary();
-    emp2.setSalary((int) (oldSalary * 1.05));
+    emp1.setSalary((int) (emp1.getSalary() * 1.1));
+    emp2.setSalary((int) (emp2.getSalary() * 1.05));
 
     //**** 5
     System.out.println("After-");

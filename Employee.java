@@ -3,8 +3,8 @@ public class Employee {
 	private int salary;    
 
   public Employee(String name, int salary) {
-    this.name = name;
-    this.salary = salary;
+    setName(name);
+    setSalary(salary);
   }
 
 	public void setName(String inName) { 
